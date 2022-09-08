@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { SimpleMaskDirective, SimpleMaskPipe } from 'ngx-ion-simple-mask'
 
 @Component({
   selector: 'app-formulario',
